@@ -1,0 +1,366 @@
+/* Custom CSS for the portfolio */
+.app {
+  position: relative;
+  overflow-x: hidden;
+}
+
+/* Hero Section */
+.hero-section {
+  background: linear-gradient(135deg, #f8f9ff 0%, #e8f4fd 50%, #e0f7fa 100%);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding-top: 80px;
+}
+
+.hero-pattern {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 200px;
+  height: 200px;
+  opacity: 0.1;
+  background-image: radial-gradient(circle, #6c63ff 2px, transparent 2px);
+  background-size: 40px 40px;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  color: #6c757d;
+  transition: color 0.3s ease;
+}
+
+.contact-item:hover {
+  color: #6c63ff;
+}
+
+.social-btn {
+  transition: all 0.3s ease;
+  border-radius: 25px;
+  padding: 8px 20px;
+}
+
+.social-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Doodle Positioning */
+.doodle-arrow {
+  position: absolute;
+  top: -30px;
+  left: -30px;
+  color: #a855f7;
+  opacity: 0.7;
+  transform: rotate(-12deg);
+}
+
+.doodle-star {
+  position: absolute;
+  top: 0;
+  right: -30px;
+  color: #fbbf24;
+  opacity: 0.7;
+  transform: rotate(12deg);
+}
+
+.doodle-underline {
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  width: 100%;
+  height: 8px;
+  color: #6c63ff;
+  opacity: 0.6;
+}
+
+/* Floating Doodles */
+.floating-doodle {
+  position: fixed;
+  opacity: 0.2;
+  z-index: 1;
+  color: #6c63ff;
+}
+
+.doodle-1 {
+  top: 80px;
+  left: 40px;
+}
+
+.doodle-2 {
+  top: 240px;
+  right: 40px;
+}
+
+.doodle-3 {
+  bottom: 80px;
+  left: 80px;
+}
+
+@media (max-width: 992px) {
+  .floating-doodle {
+    display: none;
+  }
+}
+
+/* Section Doodles */
+.section-doodle {
+  position: absolute;
+  top: -40px;
+  left: -40px;
+  color: #a855f7;
+  opacity: 0.7;
+  z-index: 1;
+}
+
+.section-doodle-right {
+  position: absolute;
+  top: -40px;
+  right: -40px;
+  color: #14b8a6;
+  opacity: 0.7;
+  z-index: 1;
+}
+
+@media (max-width: 768px) {
+  .section-doodle,
+  .section-doodle-right {
+    display: none;
+  }
+}
+
+/* Glass Effect */
+.glass-card {
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Skill Cards */
+.skill-card {
+  transition: all 0.3s ease;
+  border-radius: 15px;
+}
+
+.skill-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.skill-doodle {
+  position: absolute;
+  bottom: -40px;
+  right: -40px;
+  opacity: 0.2;
+  color: #6c757d;
+  transition: opacity 0.3s ease;
+}
+
+.skill-card:hover .skill-doodle {
+  opacity: 0.3;
+}
+
+.skill-badge {
+  transition: all 0.3s ease;
+}
+
+.skill-badge:hover {
+  transform: scale(1.05);
+}
+
+/* Project Cards */
+.project-card {
+  transition: all 0.3s ease;
+  border-radius: 15px;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+}
+
+.project-doodle {
+  position: absolute;
+  bottom: -60px;
+  right: -60px;
+  opacity: 0.2;
+  color: #6c757d;
+  transition: opacity 0.3s ease;
+}
+
+.project-card:hover .project-doodle {
+  opacity: 0.3;
+}
+
+.coming-soon-card {
+  background: rgba(248, 249, 250, 0.8);
+  border: 2px dashed #dee2e6;
+}
+
+.coming-soon-card:hover {
+  background: rgba(248, 249, 250, 0.9);
+}
+
+.tech-badge {
+  transition: all 0.3s ease;
+}
+
+.tech-badge:hover {
+  transform: scale(1.05);
+}
+
+/* Connect Section */
+.connect-card {
+  background: linear-gradient(135deg, #f8f9ff 0%, #e8f4fd 50%, #e0f7fa 100%);
+  border-radius: 20px;
+}
+
+.connect-icon .icon-wrapper {
+  background: linear-gradient(135deg, #6c63ff 0%, #3b82f6 100%);
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.connect-doodle {
+  position: absolute;
+  bottom: -80px;
+  right: -80px;
+  opacity: 0.2;
+  color: #a855f7;
+  transition: opacity 0.3s ease;
+}
+
+.connect-card:hover .connect-doodle {
+  opacity: 0.3;
+}
+
+.contact-method-card {
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.contact-method-card:hover {
+  border-color: #6c63ff;
+  transform: translateY(-2px);
+}
+
+/* Footer */
+footer {
+  position: relative;
+}
+
+.footer-wave {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  opacity: 0.1;
+  color: #6c63ff;
+}
+
+.footer-link {
+  transition: all 0.3s ease;
+}
+
+.footer-link:hover {
+  color: #6c63ff !important;
+  transform: translateY(-2px);
+}
+
+/* Smooth Scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Navbar */
+.navbar {
+  transition: all 0.3s ease;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #6c63ff !important;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hero-section {
+    padding-top: 100px;
+    text-align: center;
+  }
+
+  .display-3 {
+    font-size: 2.5rem;
+  }
+
+  .contact-info {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .skill-card,
+  .project-card {
+    margin-bottom: 20px;
+  }
+}
+
+/* Animation Classes */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in-up {
+  animation: fadeInUp 0.6s ease-out;
+}
+
+/* Custom Bootstrap Overrides */
+.btn {
+  border-radius: 25px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.badge {
+  border-radius: 20px;
+  padding: 8px 12px;
+  font-weight: 500;
+}
