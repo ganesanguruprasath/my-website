@@ -112,7 +112,8 @@ const App: React.FC = () => {
       </div>
 
       {/* Navigation */}
-      <Navbar bg="white" expand="lg" className="shadow-sm fixed-top">
+      {/* <Navbar bg="white" expand="lg" className="shadow-sm fixed-top"> */}
+      <Navbar expand="lg" className="shadow-sm fixed-top" style={{ backgroundColor: "#ffc107a8" }}>
         <Container>
           <Navbar.Brand href="#home" className="fw-bold text-primary">
             Guruprasath Ganesan
