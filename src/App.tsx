@@ -212,9 +212,7 @@ const App: React.FC = () => {
                     </div>
                   </h2>
                   <p className="lead text-muted">
-                    Proficient in frontend development with React, HTML, CSS, and JavaScript. Built dynamic, responsive
-                    UI with performance optimization. Experienced in state management, API integration, and scalable
-                    solutions.
+                    Web developer with over 2 years of experience in building clean, responsive, and high-performing user interfaces using React, HTML, CSS, and JavaScript. Proficient in developing scalable frontend solutions with efficient state management and seamless API integration. Experienced with backend technologies like Node.js and MySQL, enabling end-to-end application development. Passionate about creating intuitive user experiences and writing clean, maintainable code. Constantly learning and refining my craft to stay updated with modern web development trends.
                   </p>
                 </Card.Body>
               </Card>
