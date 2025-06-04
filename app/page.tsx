@@ -186,8 +186,7 @@ export default function Portfolio() {
             </CardHeader>
             <CardContent>
               <p className="text-gray-700 text-lg leading-relaxed text-center max-w-4xl mx-auto">
-                Proficient in frontend development with React, HTML, CSS, and JavaScript. Built dynamic, responsive UI
-                with performance optimization. Experienced in state management, API integration, and scalable solutions.
+                Web developer with over 2 years of experience in building clean, responsive, and high-performing user interfaces using React, HTML, CSS, and JavaScript. Proficient in developing scalable frontend solutions with efficient state management and seamless API integration. Experienced with backend technologies like Node.js and MySQL, enabling end-to-end application development. Passionate about creating intuitive user experiences and writing clean, maintainable code. Constantly learning and refining my craft to stay updated with modern web development trends.
               </p>
             </CardContent>
           </Card>
@@ -202,7 +201,7 @@ export default function Portfolio() {
             <h2 className="text-3xl font-bold text-gray-900 inline-block relative">
               Technical Skills
               <div className="absolute -bottom-2 left-0 w-full h-2">
-                <DoodleUnderline />
+                {/* <DoodleUnderline /> */}
               </div>
             </h2>
             <p className="text-gray-600 mt-4">Technologies and tools I work with</p>
@@ -258,7 +257,7 @@ export default function Portfolio() {
             <h2 className="text-3xl font-bold text-gray-900 inline-block relative">
               Featured Projects
               <div className="absolute -bottom-2 left-0 w-full h-2">
-                <DoodleUnderline />
+                {/* <DoodleUnderline /> */}
               </div>
             </h2>
             <p className="text-gray-600 mt-4">Some of my recent work</p>
@@ -342,7 +341,7 @@ export default function Portfolio() {
             <h2 className="text-3xl font-bold text-gray-900 inline-block relative">
               Connect with Me
               <div className="absolute -bottom-2 left-0 w-full h-2">
-                <DoodleUnderline />
+                {/* <DoodleUnderline /> */}
               </div>
             </h2>
             <p className="text-gray-600 mt-4">Let's build something amazing together!</p>
@@ -421,13 +420,13 @@ export default function Portfolio() {
                     </Button>
                   </div>
 
-                  <div className="pt-4 border-t border-gray-200">
+                  {/* <div className="pt-4 border-t border-gray-200">
                     <p className="text-sm text-gray-500 flex items-center justify-center gap-2">
                       <Sparkles className="w-4 h-4" />
                       Usually responds within 24 hours
                       <Sparkles className="w-4 h-4" />
                     </p>
-                  </div>
+                  </div> */}
                 </div>
               </CardContent>
             </Card>
@@ -442,7 +441,7 @@ export default function Portfolio() {
         </div>
         <div className="max-w-6xl mx-auto px-4 py-8 sm:px-6 lg:px-8 relative">
           <div className="text-center">
-            <p className="text-gray-600">© 2024 Guruprasath Ganesan. Built with React, TypeScript, and Tailwind CSS.</p>
+            <p className="text-gray-600">© 2024 Guruprasath Dev. Built with React, TypeScript, and Tailwind CSS with AI.</p>
             <div className="flex justify-center gap-4 mt-4">
               <a
                 href="https://www.linkedin.com/in/guruprasasth-ga"
