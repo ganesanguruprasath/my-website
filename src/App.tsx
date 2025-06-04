@@ -235,7 +235,7 @@ const App: React.FC = () => {
                   <DoodleUnderline />
                 </div>
               </h2>
-              <p className="text-muted mt-3">Technologies and tools I work with</p>
+              <p className="text-muted mt-5">Technologies and tools I work with</p>
             </Col>
           </Row>
 
@@ -291,7 +291,7 @@ const App: React.FC = () => {
                   <DoodleUnderline />
                 </div>
               </h2>
-              <p className="text-muted mt-3">Some of my recent work</p>
+              <p className="text-muted mt-5">Some of my recent work</p>
             </Col>
           </Row>
 
@@ -377,7 +377,7 @@ const App: React.FC = () => {
                   <DoodleUnderline />
                 </div>
               </h2>
-              <p className="text-muted mt-3">Let's build something amazing together!</p>
+              <p className="text-muted mt-5">Let's build something amazing together!</p>
             </Col>
           </Row>
 
