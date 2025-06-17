@@ -410,7 +410,7 @@ const App: React.FC = () => {
                   <div>
                     <CodeSlash size={48} className="text-muted mb-3 opacity-50" />
                     <h5 className="fw-bold text-muted">More Projects Coming Soon</h5>
-                    <p className="text-muted small">Stay tuned for additional portfolio pieces</p>
+                    <p className="text-muted small">Stay Tuned for additional portfolio pieces</p>
                   </div>
                 </Card.Body>
               </Card>
