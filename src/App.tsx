@@ -306,9 +306,9 @@ const App: React.FC = () => {
           <Row className="g-4">
             <Col lg={6}>
               <Card className="h-100 shadow-lg border-0 project-card position-relative overflow-hidden">
-                <div className="project-doodle">
+                {/* <div className="project-doodle">
                   <DoodleCoffee />
-                </div>
+                </div> */}
                 <Card.Body className="p-4">
                   <Card.Title className="d-flex align-items-center mb-3">
                     <CupHotFill className="me-2 text-warning" size={24} />
@@ -355,9 +355,9 @@ const App: React.FC = () => {
 
             <Col lg={6}>
               <Card className="h-100 shadow-lg border-0 project-card position-relative overflow-hidden">
-                <div className="project-doodle">
+                {/* <div className="project-doodle">
                   <DoodleCodes />
-                </div>
+                </div> */}
                 <Card.Body className="p-4">
                   <Card.Title className="d-flex align-items-center mb-3">
                     <CupHotFill className="me-2 text-warning" size={24} />
