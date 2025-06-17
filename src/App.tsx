@@ -98,6 +98,13 @@ const App: React.FC = () => {
     },
   ]
 
+  const DoodleCodes: React.FC = () => (
+    <svg width="40" height="40" viewBox="0 0 40 40" style={{ color: "#10b981", opacity: 0.2 }}>
+      <path d="M15 10 L5 20 L15 30" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" />
+      <path d="M25 10 L35 20 L25 30" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" />
+    </svg>
+  )
+
   return (
     <div className="app">
       {/* Floating Doodles */}
@@ -284,7 +291,6 @@ const App: React.FC = () => {
           <div className="section-doodle">
             <DoodleSpiral />
           </div>
-
           <Row>
             <Col lg={12} className="text-center mb-5">
               <h2 className="display-5 fw-bold position-relative d-inline-block">
@@ -298,7 +304,6 @@ const App: React.FC = () => {
           </Row>
 
           <Row className="g-4">
-            {/* Coffee Shop Project */}
             <Col lg={6}>
               <Card className="h-100 shadow-lg border-0 project-card position-relative overflow-hidden">
                 <div className="project-doodle">
@@ -348,27 +353,25 @@ const App: React.FC = () => {
               </Card>
             </Col>
 
-            {/* Notes App Project */}
             <Col lg={6}>
               <Card className="h-100 shadow-lg border-0 project-card position-relative overflow-hidden">
                 <div className="project-doodle">
-                  <DoodleNotebook />
+                  <DoodleCodes />
                 </div>
                 <Card.Body className="p-4">
                   <Card.Title className="d-flex align-items-center mb-3">
-                    <JournalText className="me-2 text-info" size={24} />
-                    Notes App with React & TypeScript
+                    <CupHotFill className="me-2 text-warning" size={24} />
+                    Notes App - React + TypeScript
                   </Card.Title>
                   <Card.Text className="text-muted mb-4">
-                    A clean, type-safe notes application built with React‑TS and React‑Bootstrap.
-                    Features include full CRUD (create/edit/delete), responsive layout, local persistence via browser storage, and intuitive form handling.
+                    A clean and intuitive notes application built with React and TypeScript. My first dive into TypeScript, featuring note creation, color customization, and persistent storage functionality.
                   </Card.Text>
 
                   <div className="mb-4">
                     <h6 className="fw-bold mb-2">Technologies Used:</h6>
                     <div className="d-flex flex-wrap gap-2">
-                      {["React", "TypeScript", "React‑Bootstrap", "Vite"].map((tech, index) => (
-                        <Badge key={index} bg="info" text="dark" className="tech-badge">
+                      {["ReactJS", "TypeScript", "React Hooks", "React-Bootstrap"].map((tech, index) => (
+                        <Badge key={index} bg="primary" className="tech-badge">
                           {tech}
                         </Badge>
                       ))}
@@ -378,15 +381,15 @@ const App: React.FC = () => {
                   <div className="mb-4">
                     <h6 className="fw-bold mb-2">Key Features:</h6>
                     <ul className="text-muted small">
-                      <li>Create, edit, & delete notes with a smooth UI</li>
-                      <li>Persistent storage using <code>localStorage</code></li>
-                      <li>Fully typed components with TypeScript</li>
-                      <li>Responsive design via React‑Bootstrap</li>
+                      <li>Responsive UI design</li>
+                      <li>Persistent cart state</li>
+                      <li>Scalable architecture</li>
+                      <li>Modern React patterns</li>
                     </ul>
                   </div>
 
                   <Button
-                    variant="info"
+                    variant="primary"
                     href="https://reactntypescript-app-one-notes.vercel.app/"
                     target="_blank"
                     className="w-100 fw-bold"
@@ -398,7 +401,6 @@ const App: React.FC = () => {
               </Card>
             </Col>
 
-            {/* Coming Soon */}
             <Col lg={6}>
               <Card className="h-100 shadow-lg border-0 border-dashed coming-soon-card position-relative overflow-hidden">
                 <div className="project-doodle">
