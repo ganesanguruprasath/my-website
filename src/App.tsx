@@ -520,7 +520,7 @@ const App: React.FC = () => {
                   <div className="pt-3 border-top">
                     <small className="text-muted d-flex align-items-center justify-content-center">
                       <StarFill className="text-warning me-2" size={16} />
-                      Usually responds within 24 hours
+                      Hello there!
                       <StarFill className="text-warning ms-2" size={16} />
                     </small>
                   </div>
